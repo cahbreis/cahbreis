@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	color:#666;
+	font-family:'CabinRegular', Verdana, Geneva, sans-serif;
+	background-image:url(../images/cloth-texture-bg.jpg);
+	background-repeat:repeat;
+	text-shadow: 1px 1px 0px #ffffff;
+	filter: dropshadow(color=#ffffff, offx=1, offy=1);
+}
+.box_round {
+	-moz-border-radius: 12px; /* FF1-3.6 */
+	-webkit-border-radius: 12px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+	border-radius: 12px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+	/* useful if you don't want a bg color from leaking outside the border: */        
+  -moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+#body-text-bg {
+	background-image:url(../images/body-texture-bg.jpg);
+	background-repeat:repeat;
+	-webkit-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, .4), inset 1px 1px 0 rgba(255,255,255,1);
+	-moz-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, .4), inset 1px 1px 0 rgba(255,255,255,1);
+	box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, .4), inset 1px 1px 0 rgba(255,255,255,1);
+}
+.portfolio{
+	margin-bottom:30px;
+}
+h1 {
+	font-family:'CabinItalic', Verdana, Geneva, sans-serif;
+	font-size:32px;
+	color:#809879;
+	/*margin:10px;*/
+	padding:10px 30px;
+}
+h2 {
+	font-family:'Cabin', Verdana, Geneva, sans-serif;
+	font-size:16px;
+	color:#666;
+	/*margin:10px;*/
+	padding:10px 30px;
+}
+#menu-item {
+	/*font-family:'PodkovaRegular';*/
+	font-family: 'PodkovaRegular', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	font-size:24px;
+	margin:10px;
+}
+#menu-item a {
+	color:#9e5f28;
+	text-decoration:none;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
+}
+#menu-item a:hover {
+	color:#c77732;
+}
+#menu-item.current a {
+	color:#c77732;
+}
+#main-logo {
+	visibility:visible;
+}
+hr {
+	background-image:url(../images/hr.png);
+	background-position:bottom;
+	background-repeat:repeat-x;
+	margin-left:-10px;
+	margin-right:-10px;
+}
+.main-body-text {
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:30px;
+	width:880px !important;
+}
+.main-ul-text {
+	padding-left:50px;
+	padding-right:30px;
+	padding-bottom:30px;
+	padding-top:30px;
+	position:relative;
+}
+a {
+	color:#9e5f28;
+	text-decoration:underline;
+	-webkit-transition: color .2s linear;
+	-moz-transition: color .2s linear;
+	-o-transition: color .2s linear;
+	transition: color .2s linear;
+}
+a:hover {
+	text-decoration:none;
+	color:#c77732;
+}
+#footer {
+	font-size:small;
+	float:right;
+	padding-bottom:50px;
+}

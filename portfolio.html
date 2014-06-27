@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>cahbreis designs</title>
+	<link rel="stylesheet" type="text/css" media="all" href="CSS/reset.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="CSS/960_12_col.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="CSS/cahbreis-main.css" />
+
+	<!-- link below is for Google fonts -->
+
+	<link href='http://fonts.googleapis.com/css?family=Artifika&v1' rel='stylesheet' type='text/css'>
+
+	<!-- link for @font-face files -->
+
+	<link rel="stylesheet" type="text/css" media="all" href="fonts/podkova-fontfacekit/stylesheet.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="fonts/cabin-fontfacekit/cabin-fontface.css"/>
+
+	<!-- fancybox items -->
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" href="./fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+	<script type="text/javascript">$(document).ready(function() {
+
+	/* This is basic - uses default settings */
+	
+	$("a[rel=example_group]").fancybox({
+				'opacity'		: true,
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic',
+				'titlePosition'	: 'over',
+				'titleFormat' : function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+	
+	});</script>
+	</head>
+
+	<body>
+<div class="container_12">
+      <div class="grid_12">
+    <div id="main-logo" align="center"><a href="cahbreis-index.html"><img src="images/cahbreis-logo3.png" /></a></div>
+  </div>
+    </div>
+<div class="container_12 box_round" id="body-text-bg">
+      <div id="menu-item" class="grid_2" align="center"><a href="cahbreis-index.html">Home</a></div>
+      <div id="menu-item" class="grid_2" align="center"><a href="who-i-am.html">Who I am</a></div>
+      <div id="menu-item" class="grid_2" align="center"><a href="what-i-do.html">What I do</a></div>
+      <div id="menu-item" class="grid_2 current" align="center"><a href="#">- Portfolio -</a></div>
+      <div id="menu-item" class="grid_2" align="center">Pricing</div>
+      <div id="menu-item" class="grid_2" align="center">Contact</div>
+      <img src="images/hr.png" style="width:960px; height:2px" />
+      <h1 class="grid_11">Portfolio</h1>
+      <div class="grid_3 main-body-text">
+    <p>Here are some examples of the work I have done in the past.</p>
+  </div>
+      <p class="grid_3" align="center"><a rel="example_group" href="img/slide-1.jpg" title="Yeah, Dog."><img src="img/slide-1s.png" alt=""/></a></p>
+      <p class="grid_3" align="center"><a rel="example_group" href="img/slide-1.jpg" title="Yeah, Dog."><img src="img/slide-1s.png" alt=""/></a></p>
+      <p class="grid_3" align="center"><a rel="example_group" href="img/slide-1.jpg" title="Yeah, Dog."><img src="img/slide-1s.png" alt=""/></a></p>
+      <p class="grid_3" align="center"><a rel="example_group" href="img/slide-1.jpg" title="Yeah, Dog."><img src="img/slide-1s.png" alt=""/></a></p>
+      <p class="grid_3" align="center"><a rel="example_group" href="img/slide-1.jpg" title="Yeah, Dog."><img src="img/slide-1s.png" alt=""/></a></p>
+    </div>
+<div class="container_12">
+      <div class="grid_12">
+    <div id="footer">Copyright © 2012 cahbreis designs. All rights reserved.</div>
+  </div>
+    </div>
+</body>
+</html>
